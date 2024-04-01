@@ -20,7 +20,7 @@ function ChildCom({ setTodos, todos }) {
           <li key={`${i}-${val}`}>
             {val?.title ?? ""}{" "}
             {!val?.completed && (
-              <button onClick={() => handliClicked(val)}>Complted</button>
+              <button onClick={() => handliClicked(val)}>Complete</button>
             )}{" "}
           </li>
         );

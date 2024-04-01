@@ -4,6 +4,7 @@ import ChildCom from "./ChildCom";
 
 const App = () => {
   const [todos, setTodos] = useState(Data);
+
   return (
     <div>
       <ChildCom todos={todos} setTodos={setTodos} />
